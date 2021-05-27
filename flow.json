@@ -179,7 +179,7 @@
         "order": 1,
         "width": 6,
         "height": 2,
-        "format": "<h1>Esto es privado</h1>",
+        "format": "<h1>Esto es privado y supersecreto</h1>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -403,7 +403,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 690,
+        "x": 750,
         "y": 240,
         "wires": []
     },
