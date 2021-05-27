@@ -1,7 +1,7 @@
 {
     "name": "DASHBOARD-PESTA-A-OCULTA",
     "description": "A Node-RED Project",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "dependencies": {
         "node-red-dashboard": "2.23.4"
     },

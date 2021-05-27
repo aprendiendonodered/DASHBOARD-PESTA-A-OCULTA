@@ -179,7 +179,7 @@
         "order": 1,
         "width": 6,
         "height": 2,
-        "format": "<h1>Esto es privado y supersecreto</h1>",
+        "format": "<h1>Esto es privado y supersecreto. NO TOCAR</h1>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
