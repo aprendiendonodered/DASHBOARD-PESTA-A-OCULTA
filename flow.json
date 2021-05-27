@@ -1,1 +1,513 @@
-[]
+[
+    {
+        "id": "e51d4ee7.75556",
+        "type": "tab",
+        "label": "Tab con Contraseña",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5adae97b.42ef98",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "12f504bd.fa6bbb",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "8ba66fe4.8a4f6",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "b308becb.ecb3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "793230f8.6470c",
+        "type": "ui_group",
+        "name": "Activa Contenido privado",
+        "tab": "12f504bd.fa6bbb",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "12f504bd.fa6bbb",
+        "type": "ui_tab",
+        "name": "Pestaña Pública",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b308becb.ecb3",
+        "type": "ui_tab",
+        "name": "Pestaña Privada",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "1e723375.15463d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "5914d443.32427c",
+        "type": "ui_template",
+        "z": "e51d4ee7.75556",
+        "group": "5adae97b.42ef98",
+        "name": "",
+        "order": 1,
+        "width": 6,
+        "height": 2,
+        "format": "<h1>Contenido público</h1>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 160,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc8cb286.37864",
+        "type": "ui_template",
+        "z": "e51d4ee7.75556",
+        "group": "8ba66fe4.8a4f6",
+        "name": "",
+        "order": 1,
+        "width": 6,
+        "height": 2,
+        "format": "<h1>Esto es privado</h1>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 160,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6633f8c2.fbfe68",
+        "type": "ui_form",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "label": "",
+        "group": "793230f8.6470c",
+        "order": 1,
+        "width": 6,
+        "height": 3,
+        "options": [
+            {
+                "label": "User",
+                "value": "User",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "Password",
+                "type": "password",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "User": "",
+            "Password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "",
+        "topic": "topic",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "b5a9c1f1.b06a1",
+                "7716e36.bcb561c",
+                "cf982848.920f38"
+            ]
+        ]
+    },
+    {
+        "id": "1e027b3.ea69085",
+        "type": "ui_ui_control",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "events": "all",
+        "x": 560,
+        "y": 240,
+        "wires": [
+            [
+                "82a8f0f6.d39ca"
+            ]
+        ]
+    },
+    {
+        "id": "b5a9c1f1.b06a1",
+        "type": "switch",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "property": "payload.User",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "enrique",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 290,
+        "y": 340,
+        "wires": [
+            [
+                "2b9f78c7.bcc3d8"
+            ],
+            [
+                "29e8e848.28d7b8"
+            ]
+        ]
+    },
+    {
+        "id": "2b9f78c7.bcc3d8",
+        "type": "switch",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "property": "payload.Password",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1234",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 340,
+        "wires": [
+            [
+                "d415b85b.6d47f8"
+            ],
+            [
+                "29e8e848.28d7b8"
+            ]
+        ]
+    },
+    {
+        "id": "d415b85b.6d47f8",
+        "type": "change",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"enable\":\"Pestaña Privada\",\"show\":\"Pestaña Privada\"}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 280,
+        "wires": [
+            [
+                "1e027b3.ea69085"
+            ]
+        ]
+    },
+    {
+        "id": "db46a70.3017958",
+        "type": "ui_button",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "group": "8ba66fe4.8a4f6",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Oculta",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "b3be7070.df586"
+            ]
+        ]
+    },
+    {
+        "id": "b3be7070.df586",
+        "type": "change",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"disable\":\"Pestaña Privada\",\"hide\":\"Pestaña Privada\"}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 240,
+        "wires": [
+            [
+                "1e027b3.ea69085"
+            ]
+        ]
+    },
+    {
+        "id": "82a8f0f6.d39ca",
+        "type": "debug",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "297b5ce5.728774",
+        "type": "ui_toast",
+        "z": "e51d4ee7.75556",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 630,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "29e8e848.28d7b8",
+        "type": "change",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Contraseña Incorrecta",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 440,
+        "wires": [
+            [
+                "297b5ce5.728774"
+            ]
+        ]
+    },
+    {
+        "id": "7716e36.bcb561c",
+        "type": "debug",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "cf982848.920f38",
+        "type": "change",
+        "z": "e51d4ee7.75556",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.User",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.Password",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 140,
+        "y": 420,
+        "wires": [
+            [
+                "6633f8c2.fbfe68"
+            ]
+        ]
+    }
+]
